@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -7,6 +8,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        metalmania: ['Metal Mania', 'cursive'],
+        myname: ['Playpen Sans', 'cursive'],
+        mylinks: ['Work Sans', 'cursive'],
+        brush: ['Finger Paint','cursive'],
+
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
